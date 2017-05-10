@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/match_parent"
+              android:orientation="vertical">
+
+    <com.skeleton.util.customview.MaterialEditText
+        style="@style/match_wrap"
+        android:gravity="center"
+        android:hint="Email/Phone Number"/>
+
+    <com.skeleton.util.customview.MaterialEditText
+        style="@style/match_wrap"
+        android:gravity="center"
+        android:hint="Password"
+        />
+
+    <CheckBox
+        style="@style/match_wrap"
+        android:gravity="center"
+        android:text="Remenber Me"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        style="@style/match_wrap"
+        android:layout_margin="@dimen/large"
+        android:gravity="center"
+        android:text="@string/forgotPassword"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/btn_SignUpPage"
+        style="@style/button"
+        android:layout_margin="@dimen/large"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="@color/green"
+        android:text="Sign In"
+        android:textColor="@color/white"/>
+
+
+    <Button
+
+        style="@style/button"
+        android:layout_margin="@dimen/large"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="@color/com_facebook_blue"
+        android:text="Sign In With Facebook"
+        android:textColor="@color/white"/>
+</LinearLayout>

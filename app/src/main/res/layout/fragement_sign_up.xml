@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/match_parent"
+              android:orientation="vertical"
+    >
+
+
+    <ScrollView style="@style/match_parent">
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:orientation="vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                style="@style/wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/large"
+                android:layout_marginTop="@dimen/large"
+                android:src="@mipmap/ic_launcher"/>
+
+            <com.skeleton.util.customview.MaterialEditText
+                style="@style/match_wrap"
+                android:gravity="center"
+                android:hint="Name"
+
+                />
+
+            <LinearLayout
+                style="@style/match_wrap"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <com.skeleton.util.customview.MaterialEditText
+                    style="@style/match_wrap"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:text="+91"/>
+
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.01"
+                    android:background="@color/charcoal_grey"
+                    />
+
+                <com.skeleton.util.customview.MaterialEditText
+                    style="@style/match_wrap"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:hint="Phone Number"/>
+            </LinearLayout>
+
+            <com.skeleton.util.customview.MaterialEditText
+                style="@style/match_wrap"
+                android:gravity="center"
+                android:hint="Email"
+                />
+
+            <RadioGroup
+                style="@style/match_wrap"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    style="@style/match_wrap"
+                    android:layout_weight="0.5"
+                    android:text="Select Gender:"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    style="@style/wrap_content"
+                    android:text="Male"
+                    />
+
+                <RadioButton
+                    style="@style/wrap_content"
+                    android:text="Female"
+                    />
+            </RadioGroup>
+
+            <com.skeleton.util.customview.MaterialEditText
+                style="@style/match_wrap"
+                android:gravity="center"
+                android:hint="Date Of Birth"/>
+
+            <com.skeleton.util.customview.MaterialEditText
+                android:id="@+id/ed_password_signUp"
+                style="@style/match_wrap"
+                android:gravity="center"
+                android:hint="  Password"
+                />
+
+            <com.skeleton.util.customview.MaterialEditText
+                style="@style/match_wrap"
+                android:gravity="center"
+                android:hint="  Confirm Password"
+                android:inputType="numberPassword"/>
+
+
+            <CheckBox
+                style="@style/match_wrap"
+                android:text="@string/checkbox"
+                />
+
+            <Button
+                android:id="@+id/btn_SignUpPage"
+                style="@style/button"
+                android:layout_margin="@dimen/large"
+                android:background="@drawable/circular_button"
+                android:backgroundTint="@color/com_facebook_blue"
+                android:text="Sign up"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
