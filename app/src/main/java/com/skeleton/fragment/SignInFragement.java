@@ -27,7 +27,6 @@ public class SignInFragement extends Fragment implements View.OnClickListener {
     private static final int APP_VERSION = 101;
     private MaterialEditText etEmail, etPassword;
     private Button btnSignIn;
-
     @Nullable
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable final Bundle savedInstanceState) {
