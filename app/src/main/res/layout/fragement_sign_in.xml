@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/llSignIn"
               style="@style/match_parent"
               android:orientation="vertical">
 
     <com.skeleton.util.customview.MaterialEditText
+        android:id="@+id/etEmailPhoneNo"
         style="@style/match_wrap"
         android:gravity="center"
         android:hint="Email/Phone Number"/>
 
     <com.skeleton.util.customview.MaterialEditText
+        android:id="@+id/etPassword"
         style="@style/match_wrap"
         android:gravity="center"
         android:hint="Password"
         />
 
     <CheckBox
+        android:id="@+id/cbRemember"
         style="@style/match_wrap"
         android:gravity="center"
         android:text="Remenber Me"
@@ -22,6 +26,7 @@
         android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/tvForgotPassword"
         style="@style/match_wrap"
         android:layout_margin="@dimen/large"
         android:gravity="center"
@@ -31,7 +36,7 @@
         />
 
     <Button
-        android:id="@+id/btn_SignUpPage"
+        android:id="@+id/btnSignInPage"
         style="@style/button"
         android:layout_margin="@dimen/large"
         android:background="@drawable/circular_button"
@@ -41,7 +46,7 @@
 
 
     <Button
-
+        android:id="@+id/btn_SignInFacebok"
         style="@style/button"
         android:layout_margin="@dimen/large"
         android:background="@drawable/circular_button"

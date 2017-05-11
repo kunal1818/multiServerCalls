@@ -45,7 +45,7 @@ android {
     }
     productFlavors {
         DEV {
-            buildConfigField 'String', 'BASE_URL', '" YOUR DEV URL"'
+            buildConfigField 'String', 'BASE_URL', '"http://52.38.181.185:3000/"'
             buildConfigField 'boolean', 'WATER_MARK', 'true'
         }
         QA {
@@ -137,6 +137,7 @@ dependencies {
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
     compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.android.support:design:25.3.1'
 }
 apply plugin: 'com.google.gms.google-services'

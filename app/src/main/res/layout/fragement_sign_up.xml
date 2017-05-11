@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/llSignUp"
               style="@style/match_parent"
               android:orientation="vertical"
     >
@@ -13,6 +14,7 @@
 
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivCircular"
                 style="@style/wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/large"
@@ -20,6 +22,7 @@
                 android:src="@mipmap/ic_launcher"/>
 
             <com.skeleton.util.customview.MaterialEditText
+                android:id="@+id/etName"
                 style="@style/match_wrap"
                 android:gravity="center"
                 android:hint="Name"
@@ -33,6 +36,7 @@
 
 
                 <com.skeleton.util.customview.MaterialEditText
+                    android:id="@+id/et91"
                     style="@style/match_wrap"
                     android:layout_weight="0.8"
                     android:gravity="center"
@@ -47,6 +51,7 @@
                     />
 
                 <com.skeleton.util.customview.MaterialEditText
+                    android:id="@+id/etPhoneNo"
                     style="@style/match_wrap"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -54,12 +59,14 @@
             </LinearLayout>
 
             <com.skeleton.util.customview.MaterialEditText
+                android:id="@+id/etEmail"
                 style="@style/match_wrap"
                 android:gravity="center"
                 android:hint="Email"
                 />
 
             <RadioGroup
+                android:id="@+id/rgGender"
                 style="@style/match_wrap"
                 android:orientation="horizontal"
 
@@ -75,29 +82,33 @@
                     />
 
                 <RadioButton
+                    android:id="@+id/radiobtnMale"
                     style="@style/wrap_content"
                     android:text="Male"
                     />
 
                 <RadioButton
+                    android:id="@+id/radiobtnFemale"
                     style="@style/wrap_content"
                     android:text="Female"
                     />
             </RadioGroup>
 
             <com.skeleton.util.customview.MaterialEditText
+                android:id="@+id/etDOB"
                 style="@style/match_wrap"
                 android:gravity="center"
                 android:hint="Date Of Birth"/>
 
             <com.skeleton.util.customview.MaterialEditText
-                android:id="@+id/ed_password_signUp"
+                android:id="@+id/etPasswordSignUp"
                 style="@style/match_wrap"
                 android:gravity="center"
                 android:hint="  Password"
                 />
 
             <com.skeleton.util.customview.MaterialEditText
+                android:id="@+id/etConfirmPasswordSignUp"
                 style="@style/match_wrap"
                 android:gravity="center"
                 android:hint="  Confirm Password"
@@ -105,12 +116,13 @@
 
 
             <CheckBox
+                android:id="@+id/cbAccept"
                 style="@style/match_wrap"
                 android:text="@string/checkbox"
                 />
 
             <Button
-                android:id="@+id/btn_SignUpPage"
+                android:id="@+id/btnSignUpPage"
                 style="@style/button"
                 android:layout_margin="@dimen/large"
                 android:background="@drawable/circular_button"

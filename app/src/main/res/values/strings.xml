@@ -50,5 +50,9 @@
 
     <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
     <string name="title_settings_dialog">Permissions Required</string>
+    <string name="error_invalid_data">Invalid DOB Format</string>
+    <string name="error_tos">Please Accept Terms And Condition</string>
+    <string name="error_gender">Please Select Gender</string>
+    <string name="error_profile_pic">Please Choose An Image</string>
 
 </resources>
