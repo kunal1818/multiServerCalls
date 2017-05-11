@@ -54,5 +54,18 @@
     <string name="error_tos">Please Accept Terms And Condition</string>
     <string name="error_gender">Please Select Gender</string>
     <string name="error_profile_pic">Please Choose An Image</string>
+    <string name="email_PhoneNo">Email/Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="remember">Remember Me</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_fac">Sign In With Facebook</string>
+    <string name="name">Name</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="signUp">Sign up</string>
 
 </resources>

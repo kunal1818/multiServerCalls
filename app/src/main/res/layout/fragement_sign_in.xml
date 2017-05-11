@@ -8,20 +8,20 @@
         android:id="@+id/etEmailPhoneNo"
         style="@style/match_wrap"
         android:gravity="center"
-        android:hint="Email/Phone Number"/>
+        android:hint="@string/email_PhoneNo"/>
 
     <com.skeleton.util.customview.MaterialEditText
         android:id="@+id/etPassword"
         style="@style/match_wrap"
         android:gravity="center"
-        android:hint="Password"
+        android:hint="@string/password"
         />
 
     <CheckBox
         android:id="@+id/cbRemember"
         style="@style/match_wrap"
         android:gravity="center"
-        android:text="Remenber Me"
+        android:text="@string/remember"
         android:textSize="20sp"
         android:textStyle="bold"/>
 
@@ -41,7 +41,7 @@
         android:layout_margin="@dimen/large"
         android:background="@drawable/circular_button"
         android:backgroundTint="@color/green"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:textColor="@color/white"/>
 
 
@@ -51,6 +51,6 @@
         android:layout_margin="@dimen/large"
         android:background="@drawable/circular_button"
         android:backgroundTint="@color/com_facebook_blue"
-        android:text="Sign In With Facebook"
+        android:text="@string/sign_in_fac"
         android:textColor="@color/white"/>
 </LinearLayout>
